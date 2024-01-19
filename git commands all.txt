@@ -1,0 +1,62 @@
+mangi@Jyoshna MINGW64 ~ (master)
+$ cd ~/desktop
+
+mangi@Jyoshna MINGW64 ~/desktop (master)
+$ mkdir mca
+
+mangi@Jyoshna MINGW64 ~/desktop (master)
+$ git config --global user.name "jyoshnamangineni"
+
+mangi@Jyoshna MINGW64 ~/desktop (master)
+$ git config --global user.email "jyoshnamangineni@gmail.com"
+
+mangi@Jyoshna MINGW64 ~/desktop (master)
+$ git config --global --list
+user.name=jyoshnamangineni
+user.email=jyoshnamangineni@gmail.com
+
+mangi@Jyoshna MINGW64 ~/desktop (master)
+$ ls
+'Devops Lab Manual.docx'         'New folder'/      'Personal - Edge.lnk'*                         desktop.ini   mca/
+'EXPERIENTIAL LEARNING 3&4.doc'  'New folder (2)'/  'VSCodeUserSetup-x64-1.77.0 - Shortcut.lnk'*   devops/      'nptel receipt.pdf'
+'Google Chrome.lnk'*             'New folder (3)'/  'WhatsApp Image 2023-05-29 at 19.56.58.jpg'    form.html     registration.html
+
+mangi@Jyoshna MINGW64 ~/desktop (master)
+$ cd mca
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ git init
+Initialized empty Git repository in C:/Users/mangi/Desktop/mca/.git/
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ touch userReg.html
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ git add userReg.html
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ git commit -m "hi hellow"
+[master (root-commit) 27866ce] hi hellow
+ 1 file changed, 46 insertions(+)
+ create mode 100644 userReg.html
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ git remote -v
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ git remote add origin https://github.com/jyoshna-org/058.git
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 760 bytes | 760.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jyoshna-org/058.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+mangi@Jyoshna MINGW64 ~/desktop/mca (master)
+$
